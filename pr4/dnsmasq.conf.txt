@@ -1,0 +1,12 @@
+domain=shevchik.com
+interface=enp0s3
+dhcp-range=192.168.16.21,192.168.16.100,255.255.255.0,24h
+dhcp-option=3,192.168.16.20
+dhcp-authoritative
+dhcp-host=08:00:27:6b:2d:43,192.168.16.21
+
+domain=shevchik.local
+address=/shevchik.local/192.168.16.20
+address=/host.shevchik.local/192.168.16.21
+server=8.8.8.8
+server=8.8.4.4
