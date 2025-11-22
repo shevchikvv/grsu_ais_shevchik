@@ -1,0 +1,11 @@
+<Anonymous /home/public>
+    User ftp
+    Group nogroup
+    UserAlias anonymous ftp
+    RequireValidShell off
+    <Directory /home/public>
+        <Limit WRITE>
+            DenyAll
+        </Limit>
+    </Directory>
+</Anonymous>

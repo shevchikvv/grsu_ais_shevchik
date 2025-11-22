@@ -1,0 +1,5 @@
+[shevchik-share]
+comment = Shevchik Samba Share
+path = /home/shevchik_server/shevchik-share
+read only = on
+browsable = yes
